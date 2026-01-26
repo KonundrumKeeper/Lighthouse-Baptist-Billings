@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighthouse Baptist Church | Billings, MT</title>
+    <style>
+        /* PRAGMATIC STYLING
+           System-ui font stack prevents external font requests.
+           Variables used for efficient color management.
+        */
+        :root {
+            --slate: #2c3e50;
+            --white: #ffffff;
+            --light-gray: #f4f6f7;
+            --accent: #2980b9;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-gray);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--slate);
+            color: var(--white);
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        h1 { margin: 0; font-size: 2.5rem; font-weight: 700; letter-spacing: -0.5px; }
+        h2 { font-weight: 400; margin-top: 0.5rem; font-size: 1.2rem; opacity: 0.9; }
+
+        .container {
+            max-width: 800px;
+            margin: -2rem auto 2rem; /* Pull up to overlap header */
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .info-grid {
+            display: grid;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+            text-align: left;
+        }
+
+        @media (min-width: 600px) {
+            .info-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        .info-item h3 {
+            margin-bottom: 0.5rem;
+            color: var(--slate);
+            font-size: 1.1rem;
+            border-bottom: 2px solid var(--light-gray);
+            padding-bottom: 0.25rem;
+        }
+
+        a { color: var(--accent); text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+
+        .notice {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 0.75rem;
+            border: 1px solid #ffeeba;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lighthouse Baptist Church</h1>
+        <h2>Billings, Montana</h2>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <div class="notice">
+                <strong>Website Under Construction.</strong> Full site launching soon.
+            </div>
+            <p>Welcome to Lighthouse Baptist Church. We are currently updating our digital presence. Please find our location and contact information below.</p>
+        </div>
+
+        <div class="card">
+            <div class="info-grid">
+                
+                <div class="info-item">
+                    <h3>Leadership</h3>
+                    <p><strong>Pastor Caleb Wardrip</strong></p>
+                </div>
+
+                <div class="info-item">
+                    <h3>Contact</h3>
+                    <p>Phone: <a href="tel:4068390739">(406) 839-0739</a></p>
+                </div>
+
+                <div class="info-item">
+                    <h3>Location</h3>
+                    <address style="font-style: normal;">
+                        207 N Broadway<br>
+                        Billings, MT 59101
+                    </address>
+                    <p style="margin-top:0.5rem; font-size: 0.9rem;">
+                        <a href="https://www.google.com/maps/search/?api=1&query=207+N+Broadway+Billings+MT+59101" target="_blank" rel="noopener noreferrer">
+                            &rarr; Get Directions
+                        </a>
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <h3>Service Times</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li><strong>Sunday School:</strong> 10:00 AM</li>
+                        <li><strong>Morning Service:</strong> 11:00 AM</li>
+                        <li><strong>Evening Service:</strong> 6:00 PM</li>
+                        <li><strong>Wednesday:</strong> 7:00 PM</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <script>document.write(new Date().getFullYear())</script> Lighthouse Baptist Church
+    </footer>
+
+</body>
+</html>
