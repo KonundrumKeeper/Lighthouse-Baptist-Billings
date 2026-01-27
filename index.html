@@ -88,6 +88,14 @@
             font-size: 0.8rem;
             color: #666;
         }
+        /* Responsive Image Handling */
+img {
+    max-width: 100%; /* Ensures image never exceeds its container */
+    height: auto;    /* Maintains aspect ratio to prevent distortion */
+    display: block;  /* Removes bottom whitespace gap */
+    margin: 1rem auto; /* Centers the image with spacing */
+    border-radius: 4px; /* Optional: matches card styling */
+}
     </style>
 </head>
 <body>
@@ -125,7 +133,7 @@
                         Billings, MT 59101
                     </address>
                     <p style="margin-top:0.5rem; font-size: 0.9rem;">
-                        <a href="https://www.google.com/maps/search/?api=1&query=207+N+Broadway+Billings+MT+59101" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.google.com/maps/place/Lighthouse+Baptist+Church/@45.7834597,-108.5091422,17z/data=!4m16!1m9!3m8!1s0x53487b3a7fed6d69:0x8ab7629b5867df6f!2sValley+Building,+207+N+Broadway,+Billings,+MT+59101!3b1!8m2!3d45.7834597!4d-108.5065673!10e3!16s%2Fg%2F11b8v4776x!3m5!1s0x53487b30866feef3:0x72754b4a9e72e4c2!8m2!3d45.7834625!4d-108.5065242!16s%2Fg%2F1tkb4sf5?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" target="_blank" rel="noopener noreferrer">
                             &rarr; Get Directions
                         </a>
                     </p>
