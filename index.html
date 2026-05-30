@@ -74,7 +74,7 @@
 
         .notice {
             background-color: #fff3cd;
-            color: #856404;https://www.google.com/maps/place/Lighthouse+Baptist+Church/@45.8268764,-108.457262,17z/data=!3m1!4b1!4m6!3m5!1s0x53487b30866feef3:0x72754b4a9e72e4c2!8m2!3d45.8268764!4d-108.4546871!16s%2Fg%2F1tkb4sf5?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D
+            color: #856404;
             padding: 0.75rem;
             border: 1px solid #ffeeba;
             border-radius: 4px;
@@ -88,14 +88,19 @@
             font-size: 0.8rem;
             color: #666;
         }
+
         /* Responsive Image Handling */
-img {
-    max-width: 100%; /* Ensures image never exceeds its container */
-    height: auto;    /* Maintains aspect ratio to prevent distortion */
-    display: block;  /* Removes bottom whitespace gap */
-    margin: 1rem auto; /* Centers the image with spacing */
-    border-radius: 4px; /* Optional: matches card styling */
-}
+        img {
+            max-width: 100%; /* Ensures image never exceeds its container */
+            height: auto;    /* Maintains aspect ratio to prevent distortion */
+            display: block;  /* Removes bottom whitespace gap */
+            margin: 1rem auto; /* Centers the image with spacing */
+            border-radius: 4px; /* Matches card styling */
+        }
+
+        .leadership-text {
+            margin-bottom: 1.5rem;
+        }
     </style>
 </head>
 <body>
@@ -113,44 +118,38 @@ img {
             <p>Welcome to Lighthouse Baptist Church. We are currently updating our digital presence. Please find our location and contact information below.</p>
         </div>
 
-      <div class="card">
-    <div class="profile-container">
-        <img src="IMG_20260127_111430.jpg" alt="Pastor Caleb Wardrip and Hannah Wardrip" class="profile-img">
-    </div>
-    <div class="leadership-text" style="margin-bottom: 1.5rem;">
-        <strong>Pastor Caleb Wardrip & Hannah Wardrip</strong>
-    </div>
+        <div class="card">
+            <div class="profile-container">
+                <img src="IMG_20260127_111430.jpg" alt="Pastor Caleb Wardrip and Hannah Wardrip" class="profile-img">
+            </div>
+            <div class="leadership-text">
+                <strong>Pastor Caleb Wardrip & Hannah Wardrip</strong>
+            </div>
 
-    <div class="info-grid">
-        <div class="info-item">
-            <h3>Contact</h3>
-            <p>Phone: <a href="tel:4065343300">(406) 534-3300</a></p>
-        </div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <h3>Contact</h3>
+                    <p>Phone: <a href="tel:4065343300">(406) 534-3300</a></p>
+                </div>
 
-        <div class="info-item">
-            <h3>Location</h3>
-            <address style="font-style: normal;">
-                1220 Wicks Ln,<br>
-                Billings, MT 59105
-            </address>
-            <p style="margin-top:0.5rem; font-size: 0.9rem;">
-                <a href="https://www.google.com/maps/place/Lighthouse+Baptist+Church/@45.7834597,-108.5091422,17z/data=!4m16!1m9!3m8!1s0x53487b3a7fed6d69:0x8ab7629b5867df6f!2sValley+Building,+207+N+Broadway,+Billings,+MT+59101!3b1!8m2!3d45.7834597!4d-108.5065673!10e3!16s%2Fg%2F11b8v4776x!3m5!1s0x53487b30866feef3:0x72754b4a9e72e4c2!8m2!3d45.7834625!4d-108.5065242!16s%2Fg%2F1tkb4sf5?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" target="_blank" rel="noopener noreferrer">
-                    → Get Directions
-                </a>
-            </p>
-        </div>
+                <div class="info-item">
+                    <h3>Location</h3>
+                    <address style="font-style: normal;">
+                        1220 Wicks Ln,<br>
+                        Billings, MT 59105
+                    </address>
+                    <p style="margin-top:0.5rem; font-size: 0.9rem;">
+                        <a href="https://www.google.com/maps/place/Lighthouse+Baptist+Church/@45.7834597,-108.5091422,17z/data=!4m16!1m9!3m8!1s0x53487b3a7fed6d69:0x8ab7629b5867df6f!2sValley+Building,+207+N+Broadway,+Billings,+MT+59101!3b1!8m2!3d45.7834597!4d-108.5065673!10e3!16s%2Fg%2F11b8v4776x!3m5!1s0x53487b30866feef3:0x72754b4a9e72e4c2!8m2!3d45.7834625!4d-108.5065242!16s%2Fg%2F1tkb4sf5?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" target="_blank" rel="noopener noreferrer">
+                            → Get Directions
+                        </a>
+                    </p>
+                </div>
 
-        <div class="info-item" style="grid-column: span 2;">
-            <h3>Service Times</h3>
-            <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem;">
-                <li><strong>Sunday School:</strong><br>9:45 AM</li>
-                <li><strong>Morning Service:</strong><br>11:00 AM</li>
-                <li><strong>Evening Service:</strong><br>6:00 PM</li>
-                <li><strong>Wednesday:</strong><br>6:30 PM</li>
-            </ul>
-        </div>
-    </div>
-</div>
+                <div class="info-item">
+                    <h3>About Us</h3>
+                    <p>We are an independent, fundamental, Bible-believing Baptist church dedicated to preaching the Gospel and serving the Billings community.</p>
+                </div>
+
                 <div class="info-item">
                     <h3>Service Times</h3>
                     <ul style="list-style: none; padding: 0; margin: 0;">
@@ -163,17 +162,9 @@ img {
             </div>
         </div>
     </div>
-<div class="info-item">
-    <h3>About Us</h3>
-    <p>We are an independent, fundamental, Bible-believing Baptist church dedicated to preaching the Gospel and serving the Billings community.</p>
-</div>
-                        </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <footer>
-        &copy; <script>document.write(new Date().getFullYear())</script> Lighthouse Baptist Church
+        © <script>document.write(new Date().getFullYear())</script> Lighthouse Baptist Church
     </footer>
 
 </body>
